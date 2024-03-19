@@ -1,4 +1,6 @@
 
+1) Binary search
+
 1.	Header Files: The code doesn't include header files but should have #include <iostream> for cout and cin, #include <cstdlib> for rand(), #include <ctime> for clock(), and #include <algorithm> for swap().
 2.	generate Function:
 •	generate function takes an array arr[] and its size s as parameters.
@@ -30,11 +32,14 @@
 •	This process continues until the array is fully sorted.
 
 
-
- 
-
 Time Complexity of the Algorithm:
 For every ith element the next (n-i) are iterated, therefore the time complexity of the algorithm is O(n2).
+![image](https://github.com/Akvgatr/ADA-LAB-_test/assets/144269819/4598a10d-b198-4af0-b72a-16254235894f)
+
+
+
+
+
 
 2) Sum of n Numbers
 1.	generate Function:
@@ -60,11 +65,16 @@ For every ith element the next (n-i) are iterated, therefore the time complexity
 •	Prints the sum of the array and the time taken in clock cycles.
 
 Graph:
- 
+ ![image](https://github.com/Akvgatr/ADA-LAB-_test/assets/144269819/64d36324-3ae0-4db8-8408-5167f616da14)
+
 
 Time Complexity:
 As the complete array is being iterated over, n elements are being traversed, therefore the time complexity is O(n).
- 
+
+
+
+
+ 
 3) Binary search
 1.	Binary Search Function:
 •	The BinarySearch function performs a binary search on a sorted vector.
@@ -98,6 +108,8 @@ As the complete array is being iterated over, n elements are being traversed, th
 •	Prints the input size and the corresponding time taken for each scenario.
 
 
+
+
 4) Linear search
 1.	Search Function:
 •	The search function recursively searches for an element x in a given vector arr.
@@ -117,6 +129,10 @@ As the complete array is being iterated over, n elements are being traversed, th
 •	Calls the input_generator function to generate inputs and store the time taken for the best-case scenario.
 •	Prints a header indicating the number of inputs and the time taken.
 •	Prints the input size and the corresponding time taken for each scenario.
+
+
+
+
 
 5) Towers of Hanoi
 1.	TOH Function:
@@ -141,13 +157,15 @@ As the complete array is being iterated over, n elements are being traversed, th
 
 
 
-Graph:
+Graph:![image](https://github.com/Akvgatr/ADA-LAB-_test/assets/144269819/cf11a2bb-19ed-4221-8916-ae79eea29ffd)
+
  
 
 Time Complexity:
 The number of moves required for n disks can be represented by the recurrence relationT(n) = 2T(n-1) + 1.
 Solving this recurrence relation we get =>T(n) = 2n – 1.
 Therefore, the time complexity is O(2n).
+
 
 
 Program- 06: Permutation Generator
@@ -264,6 +282,8 @@ Recursive Relation =>P(n) = n*P(n-1)
 
 Time Complexity:
 Since the loop is being executed for ‘n’ times i.e., power, the time Complexity using this method comes out to be O(n).
+
+
 
 
 10) Merging 2 list
